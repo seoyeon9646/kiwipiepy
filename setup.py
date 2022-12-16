@@ -215,7 +215,7 @@ setup(
     install_requires=[
         'kiwipiepy_model~=0.14'
     ],
-    packages=['kiwipiepy'],
+    packages=['kiwipiepy', 'kiwipiepy.corpus'],
     include_package_data=True,
     ext_modules=[CMakeExtension('_kiwipiepy',
         libraries=libraries,
